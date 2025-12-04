@@ -1,0 +1,49 @@
+###########################
+# Visual Studio / IDE Files
+###########################
+
+# Dočasné složky Visual Studia (VS 2022)
+.vs/
+# Historie místních nasazení
+.deployment/
+
+# Soubory řešení a uživatelské soubory
+*.suo
+*.user
+*.pdb
+*.tmp
+
+###########################
+# BINARY BUILD OUTPUTS
+###########################
+
+# Zkompilované binární soubory (standardní výstupy)
+[Bb]in/
+[Oo]bj/
+
+# Všechny DLL a EXE soubory
+*.exe
+*.dll
+
+# Databáze pro LocalDB/SSMS
+*.mdf
+*.ldf
+
+# Soubory balíčků a cache
+# Ignoruje kompilované výstupy z Publish/Install/Setup
+*.nupkg
+*.zip
+*.rar
+*.7z
+*.iso
+
+# Ignoruje složky pro publikování (obsahují velké balíčky)
+[Pp]ublish/
+[Ss]etup/
+
+###########################
+# Git LFS Files
+###########################
+
+# Pokud POUŽÍVÁTE Git LFS, neignorujte tyto typy zde, ale použijte je pro 'git lfs track'
+# Pokud ale nechcete, aby se kompilované soubory ukládaly, nechte toto v souboru .gitignore.
